@@ -6,7 +6,7 @@ export default function Example() {
         <div className="z-10">
           <div className="flex flex-col justify-between lg:flex-row">
             <img
-              className="w-48"
+              className="object-contain max-w-[240px] w-100"
               src="assets/images/logo.webp"
               alt="Company name"
             />
